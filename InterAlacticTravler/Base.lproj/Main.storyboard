@@ -30,6 +30,9 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Enter Wormhole"/>
+                                <connections>
+                                    <segue destination="GHL-n9-lWM" kind="show" id="cwx-i6-FRO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -42,10 +45,35 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="interAlacticTravler" id="wnd-9g-ZNT"/>
+                    <connections>
+                        <outlet property="colorTextfield" destination="24e-aa-nTh" id="eqL-RL-Veb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="94.419642857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2ff-yW-5GP">
+            <objects>
+                <viewController id="GHL-n9-lWM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kie-l1-1el">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IoK-eX-LTX">
+                                <rect key="frame" x="87" y="195" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xHH-JS-j1U"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yM2-y9-Nze"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fa4-Ug-dHT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KWT-5h-m9J">
